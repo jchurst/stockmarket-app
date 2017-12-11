@@ -13,6 +13,6 @@ Created by JC Hurst
 * I can remove stocks.
 * I can see changes in real-time when any other user adds or removes a stock. For this you will need to use Web Sockets.
 
-###Live app:
+### Live app:
 
 https://historical-cotton.glitch.me
