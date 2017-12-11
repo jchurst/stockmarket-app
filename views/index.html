@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<header class="page-header">
+		<div class="container relative">
+			<h2>Chart the Stock Market</h2>
+		</div>
+	</header>
+	<div class="stock-chart" id="stock-chart" style="width:100%; height:400px;"></div>
+	<div class="row">
+		<div class="col-sm-4 col-sm-offset-4">
+			<form class="app-form" id="stock-form" name="stock-form">
+				<div class="form-group">
+					<label class="sr-only" for="add-input">New Stock Symbol</label>
+					<div class="input-group">
+						<input class="form-control input-field" id="add-input" name="symbol" placeholder="Enter valid stock code" type="text">
+            <span class="input-group-btn"><button class="btn btn-default" id="add-btn" type="submit">Add</button></span>
+					</div>
+          <p>&nbsp;</p>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="stock-list clearfix" id="stock-list"></div>
+</body>
+</html>
